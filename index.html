@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starfield UDEMY Bootstrap project</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+
+body{
+    background-image: url(i-made-a-starfield-wallpaper-8k-v0-kreeliuyf87b1.webp);
+    background-size:cover ;
+   height: 100vh;
+   background-position: center;
+}
+
+
+.leadmb4{
+font-weight: bolder;
+background-color: whitesmoke;
+
+}
+
+.container44{
+    background-color: white;
+}
+
+
+    </style>
+
+</head>
+<body>
+   
+    
+
+
+
+   
+
+
+
+
+
+
+
+
+<!--Nav Bar Section-->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABX1BMVEVKZY7///8vTHnHIzYhMVDhYTbcpkjz9fgtSngwTXtMZ49GYowgL03cqkniYzZCX4rhXDUyVIPiqUM7V4I5X5I+YZHgqEU9XIgAADkxU4N1h6UANWxDY5DHIjU2Un4tSHMjRHQZK0wqQmrX3OXgbTnFDShsgKAWPXAkN1nt8PS3wM8AGkLHztkkNljKLTbURjbEAB5cc5cAGEGVorlXaoqojWnfeTzejUHaUzaKmbLl5uidoasADDwDIEVkeZvKzNHQoFHdn0bfgD7RPzbfURfCABHEACHpubyjrsE0QVuusrqJjptvdoZSW3COnLSstsediG+sj2fGm1i6lV+NgHaCfHt3d3/otbnVb3jioaZGUGe8vsWPlKBfZneJf3jJnVXeiUDgyarqzaHgsWXz4srgn4nlelvRXmjyxbv66ufy19nokHngWSjLP03fTg/jclDcjZP10MfJNEPPU17UbHXIUfLRAAATqElEQVR4nO2d+1cTSRbHUxjpkAaaDkkaQsBgIJnE+IAgGATkoRBnGIOiKOM83J2dnZV1d92Z/f/PVvUj/apbVd1dHXXOfH+YOSJ21yf31r23blW6M+iPrsynHkDq+pNQklr1eqc9GPT73W6/3x+02536tjKaW6dM2Kq3u5U1XdcNIs2W+Qf8w0yjN+hspzuCFAm32909QqapagaSSmjn871BPT2DpkNYHzQwnAajBUAx5lq300plLPIJW+1KBDiPOQ09361LH45swno/rxuR6byUlY7cEUkl3O6ruhaXbkhpzMuFlEao9GebifEcyGZFnrtKIuw0Fmq5nBxAjJirNZf6ksKrFMLBUrM2hmVIIpzF18rVFipSUmVyQqXbbOYI31huSQ5gfsm83FhtYUOCsyYlVHoLtTFHstw0N7xgM5M46iQjVJ55+PCApISavOa9ZFNNyJiIsOvjw5qVQWhOQy9jMl9NQNiu1XJ+QEkTcWkscNmFRoKCLjZhXWuOhZWXQRi+bG2hO3LCykIuPBA5oUalXbmWizsd4xG2mzXKKDBh7JLUlS/Q+Fw1XgkQh1DZoDmoKRnB1ACuXWu2R0TYDkZQj2QE01no4rnmWgwzRifca9LmiUTCJfj6tWb02RiVsF6DDSgpXQSThU8LvZQJu9QQ6koCYZ55g7HabMTcGI1wDQwxtiZSJ8RBNZqnRiHcvsnyUEvJU36e7SUE8fuUCB/tZCdGQJjhEY5N3PohFcKHc9nJG1zEURDemNx9Kp42hAlP17PZyZufgw0nbk5ml3eF1/+ihD/sZrG++ixseBuPZHLnkVzC70zALH8iSog0vFtMTJpDmXsrk/DpsgU4ybv7CAgnbliE2bmvpREqDiA/1KSf8cfGbtqEgogChErWAeSHmtSrNi9hduehFELXgqMi5IQalzC7I2BFPqEHkE+Y6urJ0sRNdzwijsol/M4DiAk581BG15tH+FXWi8iNqDzCb3ezUQg1bizlfwbQGp9KmJ3j5UUO4akPkEvI79NoHS4itRMFEmZ3ONUNm/D79WyAkP35cnttagU1uJ8Ch9ATacwx7bJrVCbh251sNEJuKDXaaMAzIi8hBgizy09jE27PZSMSckOp3lJaOu+XOOkiSJjdZS6mGITKcvBS3JqGZx6thxTU47kpJ5jeCA1rnZX5GYS+PGETsu/NDTT6tqIo9Xne58C2YZiQGVBhwm92Qxfiri0ETKhgI/L6xpxQEybMrsPRBiR8FJqEWd76kNtL1BRTLR4hpzKlDGz5u8iEyjrlOrwVMGcaztctQq6fsidiMCGa2gW7UxDht+FJyA2lnGmot5FNiNrseMrJ+aFgSgRORYDwIdWEkzeYd2Yvf+eHgCYi69NgZ8QJSqjBY1uORBjOhJbYTsrKhppadwExYj3PcmmOm9IIs7unUQgpiYKIE2hgs2h6VwmqC58Qy7PzBXUi4gKV7qdUwoe3qJfgVTSAk2qG1m+hECFq9TOzECT7RtSJiK0oTNgKlqMOIfu+gJPm+/UwnuOrXeBT4ZQ1AOE3ooTUOBrXSbUuggAxIlTCsaPpxG36AOdox1IohI8gE95kfq5LkJOSI6N0vk4PCql5dtIH3JS6yqAQTtL/OcdJc/DyXjUyAwrgIGPAxQ1noQ8M8RalbRMmfEirR/lOyq5JDTVgR9Th9DOY94LcNLsuQKgAPspL97yloV7xAT7jrRLZsQZwU1qwCRGeAmGGl+45A8bzcc1D2OA3pNixBhrkXGgPPEgIVTO8OCPQKHURUUXg3A3TiMFmzVDLocomSAiakBNn+CPGiBVrLqKuSFuVU34DhNm5YOstQAiakBNnxHrdetskrHM7NabYRqRXbtiIwaZNgBA2IfsTFRoyDqmmCdcET7+xbklfYNCM6CdM14SYsI8J+T1hWzGNeMoijDkLRU2IhcRNyM6Jwkb0EbbimTDC8W69LjoLiQymn4JG/AYm/B4qZ5gmzEEVKUVan99pc5Vnfa6wEXcUkJDausjyNmSiHJtV91CUQ7bMjAEacfchRPg1feGLxTJhtF1RbS/SMWJ27QYZcRkifArEGU45E2XE2CzRfp11Y7CwufWITliHau7bsnw0utgdG6g69WV9D+E3kAmZ2zFyvkQCIzL9FAo23vrbQwjEmUlmppBwoJQjFiEUbLyxxiV8C8UZ1i3S9VGiPLsCpxtxMksj/IHupMwwk5P1jUOWmH4KBJudephQAeoZpo9GyPXxlWftCQN+6lnrDwnfAvUM6wOMmChiizkGoO0WJqQ7KdtHU5+Etpgpg+6nrpsOCenJkOWjuZQThUesqUj3U3c/0SF8RI+kLPcYySS0xG4QUzfbngYJqemeXa6NjI+INRCqnw6PSjmE1M+B6aOjmoSmmFmRvu39tZ9wmzoNWYCSnp8gLGa0oYx92MywCb+m5ApWk3uEUcZWfpaBSPPTW35CSoNm8ivGhwZFGcbTdkSlAt7BijYTX4URnYloE1LiDGvNBB2c0bqVpIhqpQtNgAmGFcPjdyZiBpqGzDUTNDy93hHvMwGX6MCtKoZThddRzkTMACUbszUD2cnoIdRIFoK0BkI9oJ5nBVTaet9LGD7DxkgUUJ5QrQ20vfjPGMqoxp65cQNtDTMCanhL0W65WYThnXsGIGAk1d7MRu3Yc1FtWKeKUAe6BKuDGkSwuzUZalHKSBTgkjDftrfOWu2YgJlMW7F3ittrwE0YOSM4Fe2FfoYWaBiTMDcLVqOGQSyABnr8ZbGm98kl2gZ4CQZicCraoSZDK7vhScgAxJofINRPFkz1LlLarKOLjLQYmIp28W0SBg8ngNfgrSf01jbnYCWUz91L1BX2Z8TK/H6MOZfQv7BgZELegkkbgOnaGR/vILv2jHuYH0b0T0WrqsmEQiljycT/3tYa7yPocjfX8kCQEUH0T0UrmGaCNRsDUEJvdLaO+hJWJWD95itQrbotE0gWjDWhBEA1j5TtpHUdEWwFT7SxOhmZYLKAAHMy1vR6R+SovohgRBfFSheEsO7p54+BJpQwLPu4iYQlVkYFCd2AuvytQ+j28xm1TPJBYR9Vopw2YSoPIroB1ertZ7wLfAagmryxpq217DNR9QTF+VCwFYcBdcchdBI+o1hLDqjO99xjbS1w9SAVcUhoH1Bg5InEC3dDrwTO6lcSPMnVuSqYM2zEnZZNaJU0sAUTNw7VXid0lB0vQfjftYyNaKXF9W2b0GxDwYkweWdU61IOs2MzJr8wG3G9bhOamzK3IQ+V0frVjEw/ADjIz8q4MIhIMv/6I5vQLEtBC0pq/VqrR8d+eAUop2cOLfrNtHjLQwiuJyT2tvXKELEir6EM9jVwWvQQglFG6ja24ZygFTgDLSxw0Y8D6q23Q0IoyrCX9JFldK3vkErd/YcRb3sIAUNLBjQX8IqSuGkcELTon7gxJPwBMqH0PVB1L9L5UkGBiLtDQuAxbJIe7ewVNqLwEeEIop/WmGg6keYUIExhF1vrCzw1IoboAEPCCpVQ2hPWvVLXOJ20eALWUk2npunRCFPaxVb5faZYohY3Tacu7VIIR76LnVS0zN901hZ9CqHsPJG6aAF1QbEJ2+Fndo7wrIw0hREXnBVwJ0z4qUcbSyGK2rDXFiQc7VkZaQpGm1zeIWwFCUd+lESOgiema41hz3vhy5+ElgKEz4aEYz7zfqE+mgkdZaj1h4R7vr/g+6iMpnUMCdzW56fWw79NQl9RM8H1UbXCfdRTGlJ7Aq0rH6G7fzjwEAr4qNFOY33Av22nzb+tN54uuHvA3oQoEGYMRezrWeKFn9BvqkjhE3qOvefGXMKWG0wFVhTki6ACn2ZG5e14D6WJ7JoabUXp82/rBhsrWdjnadyXAQiEmTVyIIR/uEt7xn/2nC1d4e8pag1y2zX+RzEs3mpdD+EwmPJNqOWtHaQ13sept0RbTkYXcTeGDevL/K08F3FoRPs9ChbhcP3EM6GmD3eQesy3yKlku1fZE0E0GmZ7ijW1hW9L5BhxoeUhdEINz4RGz92AQPVn8FsOjcq2+TsD7vcN1czAvGS9An4aqua7Lc+jHSOadbdDaIca7iPl/DtIqAUt2IcdfNTitGXUhn2UDS/iIMS14G3Zg7RXinagcc4I2y9O4z1CVm+4D2FBnQY8eYyMydiqzHNtqPda5k6GCnu09xk+zNvaN7cI+z5CuxnFL2f0PXurmreNS87gtbhnvIg0taVwjsOpesO57Z7A7rEVaOo+QmuZL7JqUg3z2YAtbpaer4ueF8aJgP88TNWc2NtCLzhdciuaIaE5EcUWFarWEnq2hVoRPnOhb/MrTusgR15kiOYbo2p7fkJkFjti60LyjE7u6ToyJuE9XlXkEBHOmkigpjGFYWqDACFZXogu7fVtRayQFLye4G/qLeFuMrbXQvB7TyQjipaRxuATrS1EPMfUrFN2ewjRgvjaXm0kP2MQQ2pFeMtDzVkdDB9hoya+E/P5rvEd5Zrh75C2mylspn0q5ceaKESIFr7QHiJVEz0KYeOPRFijfB8fdXhlxZekJUQhRGlsXX4iaX0qoYwj5p+JdPqzTVp/GDdV9xCVMJ0zBJ9CRgcg/CS1WBoyEEAY6TFcwlLVarVUKhWLxZKa3yDKZ6rkT6VStVpN45beOBMgFK5sxUTQisWNix/Pnp+/2B8vFzwa3//p/PnZy4uNUrEkm3Mefl6bxIRB4DZ+PDvfJzhlrPGQ8A/JX+6/uP/ytIo5ZWFq/pex+gmF+/BMEbhX91+UCVoYjEJKOJ+/3JBEqTOem4iUxAlDrRbzPz7fF4TzcmLPPTcpk46ggRiE6FkiI2LjnZ4RumhwXmuOP78oJYPU60zCBFlfLRUvno/HpnNtWT5/VY0PGTRh6DnCcY1YLZ7eT47nQl4UY87JoAlDhLGODqol9eW+JDwHcvxsoxjDkGoFcQhjhFNsvnMBvCm/8A94kC8uojPOh97CFn7qfMSsXy2++onBZ8IcbG29Ozzc3FxxtLl5ePhu6+CA/DVMWi7sv6xGY9TCLyYPE0YqbKol7J4gHEY73FyZsXTdJ+eHK5uY1DQpVYXyWaYUYTx6+L1PlHcjCHXOHb5xKh+Be7c5HQajiPzSyibBBAx5X5zRGIRxKISi2w3V4o9UvqnxrcMVEbYA58o7OmW5fCboq2o+TEN9R4nIU+8zavGC4p9TUwfvItO5lNc3t2jTsjz+UijmhDIFRCiSMUobL0J8GO/wekw6l5KYMsRY2L8o8t+PGQ4zACG83+yoWr0fip8mXiI6D2TYkoXzDd50NGgswPueOA9sLl6MB/imxt9NJ7SeH3JzK8hYLpyxzah3qCx0QuZZn2rmPOCgUwebEvFsyOmQIQv7LDNqoWqGRcjy0+KrwMJoamtFNp7FOLMZnJEsM9J9FH53HrQFX60GDDi1Ne3nm74+HRT5YTzIIGPhpw0gqAI+ChMCxVvp1D8DfXwWzYMHd4+O7hAtmv89Orr74MGMBZqcsVx4VaRa8BkEAhJST0cUXxYgPkyA0e5cg3QHg16PQzmz6Z+PheelsKeqaxAHTEg5FaCWfB46dWDPP9NyDDhXi0emNaMyHvo8tbwf9lQ99IogAcLQVKxu7Hs8dGr8cMbGm7krQuca80FUyJlpX+4ol08DMXUemoRsQuTfVS6demOo7aAEbzECni0CGY1xxR9wXvomo9FlULAIfc/tKr7yeOjU+OYMwbseyXpeLd6NGF9nfGYs3PcgasHWjDAh8nwnuXjmBTwg9dn0zFFMPEt3HkRi9JuxcD5EpK4oBAnd83TF+15AMgOnH8Q1n48xEqQ3cZRfOHPRSPBu9eGDNovPvUEUh1AZfESLd6Mwzhx6EX+yunHUJZM4obVWLHqyBPZQaXwmYxRf9XlqeZ8gssKoECHa0/yAWzPTM/L4iCL56vSBH1Fv8wC4hGjN66JkCh5J5TMZI8TVGc9kLO/PUxozkQkVT5CZ2rz+QDofUYTp6E0bhb9why9AiNCw2J5akeygru7MxEAs/FVg9CKEDuLUSjoGtCRuRgdRCFCMEP1cNgGPUgSMMhstRDFAQUKCOLUSowCNJuHEQRALfxMbuiAh+rmwkjbfNeKpoogHooDChOiXeyMgvHZHdDI+FgUUJ0SXT1L3UoIoxPfh+nvhcYsTopORIF4TSBsf/i4+6iiE6P211VEgcuPN418iDDoSIUK/Hn8GiI//EWnM0QhHNBlZiFGmYBxCdLU4Ck+FER//M+KAIxMi9L97IzAjhBjRQ+MRopN7IzAjdSfkw98jemhMQqT8OgIzUpJGDAPGJMRmPE7djItBwsdxDBibEKE3qQfVOz7EDx/+G3OkcQnR1b+OU2Y88iD+O1KSl0OI0OvV1XQZhwH18T/jOWhSQpz/U46qVrR5/J+4DpqcEKGPT9K0I5mKCfkSEyIlVcajxHzJCbEuV1OKOatPfk/MJ4UQx5zf5E/IxdUnb65kDE4KIc4db+Q66+q9xUv2lpKwJBHiCXmJDSkHUpr5TEkjxLr6uJgcEuP9/lrioKQSIgL5G3bXuJSLq8dPfn0tyTsdSSbEev/613v3olMSumsfT6QPJwVCoqtLTHksirm4iul++3iSoDRjKB1CovcnH38nmKsw6CJhu/fk2pvLK8mu6VF6hKbeX73++L9/HT/BqIR1qOPj43sY7fc3lyfyoiZdKRM6en91dfL68vLyIxb+3+uTk6v36ZnNpxERfkL9Sfjl6/+RQsEp4MlL4QAAAABJRU5ErkJggg==" alt="Constellation Logo" height="50px"> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Sign Up
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Call us</a></li>
+                  <li><a class="dropdown-item" href="#">Recruitment</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!--The Constellation Main Landing-->
+      <div class="px-4 pt-5 my-5 text-center border-bottom">
+        <h1 class="display-4 fw-bold text-body-emphasis">The Constellation</h1>
+        <div class="col-lg-6 mx-auto">
+          <p class="leadmb4">
+Join The Constellation, where we explore distant galaxies for artifacts leading to The Unity, unlocking multiverse travel. Ready to embark on the ultimate adventure? Join our team today and be part of humanity's next frontier.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+            <button type="button" class="btn btn-primary btn-lg">Join The Fight</button>
+            <button type="button" class="btn btn-secondary btn-lg">Contact Us</button>
+          </div>
+        </div>
+        <div class="overflow-hidden" style="max-height: 30vh;">
+          <div class="container px-5">
+            <img src="1318988.jpeg" class="img-fluid border rounded-3 shadow-lg mb-4" width="700" height="500" loading="lazy">
+          </div>
+        </div>
+      </div>
+
+<!-- Custom Card section-->
+      <div class="container px-4 py-5" id="custom-cards">
+        <h2 class="pb-2 border-bottom">Why Join The Constellation?</h2>
+    
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url(https://www.starfieldguide.com/wp-content/uploads/2022/06/first-steps-mobile-1242x2208-1.jpeg);">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Travel the settled systems.</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-backpack2" viewBox="0 0 16 16">
+                        <path d="M4.04 7.43a4 4 0 0 1 7.92 0 .5.5 0 1 1-.99.14 3 3 0 0 0-5.94 0 .5.5 0 1 1-.99-.14"/>
+                        <path fill-rule="evenodd" d="M4 9.5a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.5.5h-7a.5.5 0 0 1-.5-.5zm1 .5v3h6v-3h-1v.5a.5.5 0 0 1-1 0V10z"/>
+                        <path d="M6 2.341V2a2 2 0 1 1 4 0v.341c2.33.824 4 3.047 4 5.659v1.191l1.17.585a1.5 1.5 0 0 1 .83 1.342V13.5a1.5 1.5 0 0 1-1.5 1.5h-1c-.456.607-1.182 1-2 1h-7a2.5 2.5 0 0 1-2-1h-1A1.5 1.5 0 0 1 0 13.5v-2.382a1.5 1.5 0 0 1 .83-1.342L2 9.191V8a6 6 0 0 1 4-5.659M7 2v.083a6 6 0 0 1 2 0V2a1 1 0 0 0-2 0M3 13.5A1.5 1.5 0 0 0 4.5 15h7a1.5 1.5 0 0 0 1.5-1.5V8A5 5 0 0 0 3 8zm-1-3.19-.724.362a.5.5 0 0 0-.276.447V13.5a.5.5 0 0 0 .5.5H2zm12 0V14h.5a.5.5 0 0 0 .5-.5v-2.382a.5.5 0 0 0-.276-.447L14 10.309Z"/>
+                      </svg>
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                   
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                   
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url(https://mfiles.alphacoders.com/100/thumb-350-1008417.webp);">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Aid in our mission to access The Unity.</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe-americas" viewBox="0 0 16 16">
+                        <path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484q-.121.12-.242.234c-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z"/>
+                      </svg>
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                    
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                    
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url(https://image.civitai.com/xG1nkqKTMzGDvpLrqFT7WA/696095da-8504-42cd-9eef-19b18d3ad23d/width=450/2385896.jpeg);">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Become Starborn.</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-rocket-takeoff-fill" viewBox="0 0 16 16">
+                        <path d="M12.17 9.53c2.307-2.592 3.278-4.684 3.641-6.218.21-.887.214-1.58.16-2.065a3.6 3.6 0 0 0-.108-.563 2 2 0 0 0-.078-.23V.453c-.073-.164-.168-.234-.352-.295a2 2 0 0 0-.16-.045 4 4 0 0 0-.57-.093c-.49-.044-1.19-.03-2.08.188-1.536.374-3.618 1.343-6.161 3.604l-2.4.238h-.006a2.55 2.55 0 0 0-1.524.734L.15 7.17a.512.512 0 0 0 .433.868l1.896-.271c.28-.04.592.013.955.132.232.076.437.16.655.248l.203.083c.196.816.66 1.58 1.275 2.195.613.614 1.376 1.08 2.191 1.277l.082.202c.089.218.173.424.249.657.118.363.172.676.132.956l-.271 1.9a.512.512 0 0 0 .867.433l2.382-2.386c.41-.41.668-.949.732-1.526zm.11-3.699c-.797.8-1.93.961-2.528.362-.598-.6-.436-1.733.361-2.532.798-.799 1.93-.96 2.528-.361s.437 1.732-.36 2.531Z"/>
+                        <path d="M5.205 10.787a7.6 7.6 0 0 0 1.804 1.352c-1.118 1.007-4.929 2.028-5.054 1.903-.126-.127.737-4.189 1.839-5.18.346.69.837 1.35 1.411 1.925"/>
+                      </svg>
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                    
+                  </li>
+                  <li class="d-flex align-items-center">
+                   
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+<!--Footer Element-->
+
+<div class="container44">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <p class="col-md-4 mb-0 text-body-secondary">© 2024 Company, Inc</p>
+  
+      <a href="" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <svg class="bi me-2" width="40" height="32"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLWsSCrrCmLQ1drkdL59u9gsBDEH-j2oaMCZZs2h0j3g&s" alt=""><use xlink:href="#"></use></svg>
+      </a>
+      
+  
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Testimonials</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Recruitment</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+      </ul>
+    </footer>
+  </div>
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
